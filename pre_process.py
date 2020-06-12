@@ -78,7 +78,6 @@ if __name__ == "__main__":
     args.n_samples = {"train":-1, "dev":-1,"test":-1}
     args.n_samples.update(tmp)
     
-
     VOCAB = {'<sos>': 0, '<eos>': 1}
     IVOCAB = {0: '<sos>', 1: '<eos>'}
 
